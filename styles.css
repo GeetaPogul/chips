@@ -1,0 +1,88 @@
+body{
+    /* background-color: rgb(230, 230, 230); */
+    background: rgb(207, 225, 230);
+  
+  }
+  
+  .main-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    height: 80vh;
+    /* background: red */
+  
+  
+  }
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    min-height:64px;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0.5rem;
+    /* font-size: 2rem; */
+    /* background: pink; */
+    
+  
+  }
+  
+  .chips{
+    /* background: #cab8ff; */
+    background:rgb(207, 225, 230);
+    padding: 0.5rem 0.8rem;
+    padding-left: 1rem;
+    display: inline-block;
+    /* font-size: 18px; */
+    font-size: 1.6rem;
+    border-radius: 15px;
+    margin-right: 1.5rem;
+    margin-top: 12px;
+    margin-left: 15px;
+    height: 30px;
+  
+  }
+  
+  .chips small{
+    margin-bottom: 2px;
+  }
+  
+  
+  .close-btn{
+    font-size: 14px;
+    margin-left:2px;
+    color: white
+  }
+  
+  .close-btn:hover{
+    cursor: pointer;
+  }
+  
+  .input-box{
+    width: 25%;
+    margin: 0 auto;
+  
+    text-align: center;
+    /* background: green */
+  }
+  
+  .input-field{
+    border: none;
+    margin-top: 4rem;
+    padding: 1.2rem ;
+    border-radius: 10px;
+    font-size:1.3rem;
+  }
+  
+  .input-field::placeholder{
+    padding: 2.3rem;
+    font-weight: 600;
+  }
+  
+  .input-field:focus{
+    border: none;
+    outline: none;
+  }
